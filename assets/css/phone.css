@@ -1,0 +1,53 @@
+/* phone */
+@media screen and (max-width: 750px) {
+
+    .top1,
+    .top_right {
+        display: none;
+    }
+
+    header {
+        height: 60px;
+    }
+
+    .top_center>div {
+        display: block;
+    }
+
+    .phone_icon {
+        display: block;
+        line-height: 60px;
+    }
+
+    .phone_icon>div {
+        width: 100%;
+        height: 300px;
+        background: #fff;
+        position: absolute;
+        left: 0px;
+        z-index: 1;
+        display: none;
+    }
+
+    .phone_icon>div>section {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .phone_icon:hover>div {
+        display: block;
+    }
+
+    #content {
+        min-width: 300px;
+        width: 90%;
+    }
+    .content{
+        min-width: 300px;
+        flex-wrap: wrap;
+    }
+    .content>section {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

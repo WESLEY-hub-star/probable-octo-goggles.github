@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shop</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/pad.css">
+    <link rel="stylesheet" href="../assets/css/phone.css">
+    <link rel="stylesheet" href="../assets/css/pay-success.css">
+    <script src="../assets/js/pay.js"></script>
+    <meta name="viewport' content=" width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,
+        minimum-scale="1.0">
+</head>
+
+<body>
+    <header>
+        <section class="top">
+            <section class="top_left">
+                <img src="../assets/images/logo/logo.png" />
+            </section>
+            <section class="top_center">
+                <div>
+                    My BookShop
+                </div>
+            </section>
+            <section class="top_right"></section>
+            <section class="phone_icon">
+                <img src="../assets/images/icons/more.png"/>
+
+                <div>
+                    <section>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+        </section>
+        <section class="top1">
+            <section class="top1_left">
+
+            </section>
+            <section class="top1_center">
+                <ul class="tabs">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </section>
+            <section class="top1_right"></section>
+        </section>
+
+    </header>
+
+    <div class="content_div">
+        <div class="title">
+            PayMent Options
+        </div>
+        <div class="title2">
+            Debit / Cerdit Card
+        </div>
+        <div class="form_div">
+            <form id="cardForm">
+                <div style="width: 100%;height: 50px;">
+                    <div class="form_label">
+                        Card Number：
+                    </div>
+                    <div style="float: left;width: calc(100% - 150px);">
+                        <input class="form_input" type="text" name="cardNum" value=""
+                            placeholder="请输入卡号">
+
+                    </div>
+                </div>
+                <div style="width: 100%;height: 50px;">
+                    <div class="form_label">
+                        Expiraion Date:
+                    </div>
+                    <div style="float: left;width: calc(100% - 150px);">
+                        <select class="form_select" id="month">
+                        </select>
+                        <select class="form_select" style="float: right;" id="year">
+
+                        </select>
+                    </div>
+                </div>
+                <div style="width: 100%;height: 50px;">
+                    <div class="form_label">
+                        Security Code:
+                    </div>
+                    <div style="float: left;width: calc(100% - 150px);">
+                        <input class="form_input" name="checkCode" value="" placeholder="请输入校验码">
+
+                    </div>
+                </div>
+                <div style="width: 100%;height: 50px;">
+                    
+                    <div style="float: left;width: calc(100% - 150px);margin-left: 150px;">
+                        (3-4 digit code normally on the back of the card)
+                    </div>
+                </div>
+                <div style="width: 100%;height: 50px;">
+                    <div style="float: left;width: calc(100% - 150px);">
+                        <input type="submit" value="Continue" style="float: left;width: 45%;height: 30px;margin-left: 150px;">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

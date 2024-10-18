@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shop</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/pad.css">
+    <link rel="stylesheet" href="../assets/css/phone.css">
+    <script src="../assets/js/index.js"></script>
+
+    <meta name="viewport' content=" width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,
+        minimum-scale="1.0">
+</head>
+
+<body>
+    <header>
+        <section class="top">
+            <section class="top_left">
+                <img src="../assets/images/logo/logo.png" />
+            </section>
+            <section class="top_center">
+                <div>
+                    My BookShop
+                </div>
+            </section>
+            <section class="top_right"></section>
+            <section class="phone_icon">
+                <img onclick="clickMore()" src="../assets/images/icons/more.png" />
+                <div id="more">
+                    <section>
+                        <ul>
+                            <li style="text-align: center;"><a href="">Home</a></li>
+                            <li style="text-align: center;"><a href="">About Us</a></li>
+                            <li style="text-align: center;"><a href="">Contact Us</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+        </section>
+        <section class="top1">
+            <section class="top1_left">
+
+            </section>
+            <section class="top1_center">
+                <ul class="tabs">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </section>
+            <section class="top1_right"></section>
+        </section>
+
+    </header>
+
+    <section id="content">
+        <section class="content">
+            <section>
+                <div style="width: 150px;height:100%;float: left;">
+                    <img src="../assets/images/books/s1070959.jpg" alt="" style="width: 150px;">
+                </div>
+                <div style="width: calc(100% - 170px);height:100%;;float: right;">
+                    <div style="font-weight: bolder;">
+                        红楼梦
+                    </div>
+                    <div>
+                        price: ￥59.70
+                    </div>
+                    <div class="book_info">
+                        红楼梦》是一部百科全书式的长篇小说。以宝黛爱情悲剧为主线，以四大家族的荣辱兴衰为背景，描绘出18世纪中国封建社会的方方面面，以及封建专制下新兴资本主义民主思想的萌动。结构宏大、情节委婉、细节精致，人物形象栩栩如生，声口毕现，堪称中国古代小说中的经 典。
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <button onclick="jumpPay()">pay</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div style="width: 150px;height:100%;float: left;">
+                    <img src="../assets/images/books/s1627374.jpg" alt="" style="width: 150px;">
+                </div>
+                <div style="width: calc(100% - 170px);height:100%;;float: right;">
+                    <div style="font-weight: bolder;">
+                        西游记
+                    </div>
+                    <div>
+                        price: ￥47.2
+                    </div>
+                    <div class="book_info">
+                        《西游记》主要描写的是孙悟空保唐僧西天取经，历经九九八十一难的故事。唐僧取经是历史上一件真实的事。大约距今一千三百多年前，即唐太宗贞观元年（627），年仅25岁的青年和尚玄奘离开京城长安，只身到天竺（印度）游学。他从长安出发后，途经中亚、阿富汗、巴基斯坦，历尽艰难险阻，最后到达了印度。
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <button onclick="jumpPay()">pay</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div style="width: 150px;height:100%;float: left;">
+                    <img src="../assets/images/books/s29869926.jpg" alt="" style="width: 150px;">
+                </div>
+                <div style="width: calc(100% - 170px);height:100%;;float: right;">
+                    <div style="font-weight: bolder;">
+                        活着
+                    </div>
+                    <div>
+                        price: ￥31.8
+                    </div>
+                    <div class="book_info">
+                        这部作品不仅揭示了社会变革对个人命运的影响，也表达了对生命顽强不息的赞美。余华通过这部小说，展现了中国底层人民的生存状态和民族精神。
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <button onclick="jumpPay()">pay</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div style="width: 150px;height:100%;float: left;">
+                    <img src="../assets/images/books/s34711695.jpg" alt="" style="width: 150px;">
+                </div>
+                <div style="width: calc(100% - 170px);height:100%;;float: right;">
+                    <div style="font-weight: bolder;">
+                        卡拉马佐夫兄弟
+                    </div>
+                    <div>
+                        price: ￥47.1
+                    </div>
+                    <div class="book_info">
+                        这部作品是陀思妥耶夫斯基晚期的代表作，也是他思想深度和艺术成就的高峰。
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <button onclick="jumpPay()">pay</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div style="width: 150px;height:100%;float: left;">
+                    <img src="../assets/images/books/s4468486.jpg" alt="" style="width: 150px;">
+                </div>
+                <div style="width: calc(100% - 170px);height:100%;;float: right;">
+                    <div style="font-weight: bolder;">
+                        动物农场
+                    </div>
+                    <div>
+                        price: ￥21.8
+                    </div>
+                    <div class="book_info">
+                        这部作品通过一个简单的故事，以寓言的形式批判了苏联的斯大林主义和共产主义运动中的腐败现象，同时也对革命后的权力滥用和人类本性中的贪婪与腐败进行了普遍的批评。
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <button onclick="jumpPay()">pay</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div style="width: 150px;height:100%;float: left;">
+                    <img src="../assets/images/books/s5763939.jpg" alt="" style="width: 150px;">
+                </div>
+                <div style="width: calc(100% - 170px);height:100%;;float: right;">
+                    <div style="font-weight: bolder;">
+                        安娜 卡列尼娜
+                    </div>
+                    <div>
+                        price: ￥32.1
+                    </div>
+                    <div class="book_info">
+                        《安娜·卡列尼娜》是俄国作家列夫·托尔斯泰于1877年至1878年间发表的一部长篇小说，被认为是世界文学史上的经典之作。这部小说深入探讨了道德、忠诚、爱情、婚姻、家庭和社会的复杂关系，以及个人情感与社会规范之间的冲突
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <button onclick="jumpPay()">pay</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+/* pc */
+@media screen and (min-width: 1000px) {
+    .top {
+        min-width: 1200;
+    }
+
+    #content {
+        min-width: 1200;
+    }
+}

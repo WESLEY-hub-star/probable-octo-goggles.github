@@ -1,0 +1,49 @@
+.title {
+    font-weight: bolder;
+    line-height: 40px;
+    font-size: 24px;
+}
+
+.title2 {
+    border-top: 1px silver solid;
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content_div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form_div {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.form_label {
+    float: left;
+    width: 150px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.form_input {
+    width: 100%;
+    height: 30px;
+    float: left;
+}
+
+.form_select {
+    height: 35px;
+    width: 45%;
+}
+
+.result_div {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    line-height: 40px;
+}
